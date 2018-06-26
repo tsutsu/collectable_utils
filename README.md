@@ -1,11 +1,15 @@
 # CollectableUtils
 
-**TODO: Add description**
+`CollectableUtils` is a collection of functions for working with Elixir `Collectables`.
+
+Functions available:
+
+* [`Enum.into_by/3`](https://hexdocs.pm/collectable_utils/CollectableUtils.html#into_by/3)
+* [`Enum.into_by!/3`](https://hexdocs.pm/collectable_utils/CollectableUtils.html#into_by!/3)
 
 ## Installation
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `collectable_utils` to your list of dependencies in `mix.exs`:
+Add `collectable_utils` to your list of dependencies in `mix.exs`:
 
 ```elixir
 def deps do
@@ -14,8 +18,3 @@ def deps do
   ]
 end
 ```
-
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at [https://hexdocs.pm/collectable_utils](https://hexdocs.pm/collectable_utils).
-
